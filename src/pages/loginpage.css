@@ -1,0 +1,79 @@
+.backtohomepage{
+    font-size: 2rem;
+    color: black;
+}
+.containerlogin{
+    box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.75);
+
+padding: 1rem 2rem 1rem 2rem;
+background-color: white;
+
+}
+
+.notextdecorationnn:hover{
+    text-decoration: none;
+}
+
+.notextdecorationnn{
+    color: black !important;
+}
+
+.leftcolumn{
+    border-right: 1px solid rgb(182, 182, 182);
+}
+
+.containerlinktoregister{
+    
+}
+
+.createanaccountbutton{
+    border:1px solid black;
+    background-color: white;
+    padding: 0.7rem;
+    font-weight: 800;
+}
+
+.createanaccountbutton:hover{
+    background-color: rgb(148, 148, 148);
+    color:white
+}
+
+.register-button{
+    margin-top: 2rem;
+    background-color: #06d755;
+    border: none;
+    padding-top:0.7rem;
+    padding-bottom:0.7rem;
+    color:white;
+    font-weight: 600;
+    font-size:1.2rem
+
+}
+
+.registerinputs{
+    padding: 1rem ;
+}
+
+.continue-with-btn{
+    border: 1px solid black;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(75, 26, 121) !important;
+}
+
+.iconssRegister{
+    font-size: 2rem;
+    margin-right: 4rem;
+}
+.logologin {
+    padding-right: 5rem ;
+}
+
+.loginbackground {
+    width: 100vw;
+    height: 100vh;
+    background: url('../assets/whatsapp-pattern.jpg');
+}

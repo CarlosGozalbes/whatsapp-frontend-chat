@@ -1,0 +1,28 @@
+.send-message-input-container{
+    display: flex;
+    position:absolute;
+    bottom: 0px;
+    left:0px;
+    align-items: center;
+    height: 5rem;
+    
+    background-color: #ededed;
+    width: 100%;
+   
+    padding: 1rem;
+    
+}
+
+.send-message-input{
+    border:none;
+    font-size: 1rem;
+    background-color: white; 
+    width: 87%;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.7rem;
+}
+.send-message-icons {
+    font-size: 1.5rem;
+}
+

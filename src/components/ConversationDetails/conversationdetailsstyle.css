@@ -1,0 +1,73 @@
+.header-conversation-container{
+    width: 100%;
+    background-color: #ededed;
+    position:absolute;
+    top:0px
+
+}
+
+.contact-icons{
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    cursor: pointer;
+   color: #818181;
+}
+
+.separator{
+    cursor:default;
+    
+}
+
+
+.conversation-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    /* max-height: calc(100%- 8.2rem); */
+    padding-left: 6rem;
+    padding-right: 6rem;
+    overflow-y: auto;
+    position: absolute;
+    top: 4.2rem;
+    bottom: 5rem;
+    
+
+}
+
+
+.message{
+    width: fit-content;
+    
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.message p{
+    margin-bottom: 0;
+    margin-right: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    max-width: 70ch;
+    overflow-wrap: break-word;
+
+}
+
+.message span {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #a8a8a8;
+}
+
+.my-message{
+    background-color: #a4ffc7;
+    border-top-right-radius: 0px;
+    
+    align-self: end;
+}
+
+.contact-message{
+    background-color: #fff;
+    border-top-left-radius: 0px;
+}

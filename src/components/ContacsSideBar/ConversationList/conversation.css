@@ -1,0 +1,57 @@
+.conversation-list{
+    position: absolute;
+    overflow-y: auto;
+    max-height: calc(100% - 9.75rem);
+    border-top: 1px solid rgb(214, 214, 214);
+    top: 9.75rem;
+    min-width: 100%;
+    ;
+}
+
+.single-conversation-container{
+    min-width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+.single-conversation-container:hover{
+    background-color: #ededed;
+}
+.details-list{
+    display: block;
+    width: 85%;
+}
+
+.preview-truncate-message{
+ margin-bottom: 1rem;
+ 
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp:1;
+ font-size: 0.8rem;
+ opacity: 0.7;
+ -webkit-box-orient: vertical;
+ max-width: 100%;
+}
+.conversation-list-avatar{
+    margin:auto
+}
+
+.last-message-date{
+    font-size: 0.8rem;
+ opacity: 0.7;
+}
+
+.message-without-read{
+    background-color: #06d755;
+    color: white;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
